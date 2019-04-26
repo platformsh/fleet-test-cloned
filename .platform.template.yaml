@@ -21,7 +21,7 @@ info:
   # Unique machine name, prefaced by a vendor or organization identifier
   id: platformsh/php
   # The human-readable name of the template.
-  name: Plain PHP
+  name: Basic PHP
   # Human-readable descriptive text for the template. Supports limited HTML.
   description: PHP is the world's fastest, most widely used server-side web language.
   # A list of tags associated with the template.
@@ -35,7 +35,6 @@ info:
   notes:
     - heading: "Apps & Services"
       content: "PHP 7.3<br/>MySQL 10.2"
-    - heading: "Requirements"
 
 
 # This key describes the initialization call made to the master environment at

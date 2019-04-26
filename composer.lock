@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "platformsh/config-reader",
-            "version": "2.1.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/platformsh/config-reader-php.git",
-                "reference": "223bb5583347061a363f2e96a8f60539e22692bb"
+                "reference": "1c3a27e4086b3e7206dca118e4388d6394537b13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/platformsh/config-reader-php/zipball/223bb5583347061a363f2e96a8f60539e22692bb",
-                "reference": "223bb5583347061a363f2e96a8f60539e22692bb",
+                "url": "https://api.github.com/repos/platformsh/config-reader-php/zipball/1c3a27e4086b3e7206dca118e4388d6394537b13",
+                "reference": "1c3a27e4086b3e7206dca118e4388d6394537b13",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "Small helper to access Platform.sh environment variables",
-            "time": "2019-03-22T14:30:47+00:00"
+            "time": "2019-04-25T21:51:04+00:00"
         }
     ],
     "packages-dev": [],
