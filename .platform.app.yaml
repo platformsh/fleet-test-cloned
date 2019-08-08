@@ -54,11 +54,9 @@ source:
             command: |
                 set -e
                 echo "Starting update source operation."
-                if [ "$PLATFORM_BRANCH" = "$UPDATE_BRANCH" ]; then
-                    echo "We're on the right branch, attempting update."
-                    git remote add upstream $UPDATE_REMOTE
-                    git fetch --all
-                    echo "Merging from upstream..."
-                    git merge upstream/master --allow-unrelated-histories -X theirs
-                    echo "Merge successful."
-                fi
+                git remote add upstream $UPDATE_REMOTE
+                git fetch --all
+                echo "Merging from upstream..."
+                git merge upstream/master --allow-unrelated-histories -X theirs
+                echo "Merge successful."
+                echo "Finished source operation."
