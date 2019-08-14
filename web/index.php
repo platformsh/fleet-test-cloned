@@ -9,4 +9,4 @@ $messages = new Messages();
 printf("<h1>%s</h1>\n", $messages->title());
 printf("<p>%s</p>\n", $messages->message());
 
-printf("<p>Count: %s</p>\n", 8);
+printf("<p>Count: %s</p>\n", 9);
