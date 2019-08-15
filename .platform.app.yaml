@@ -57,6 +57,6 @@ source:
                 git remote add upstream $UPDATE_REMOTE
                 git fetch --all
                 echo "Merging from upstream..."
-                git merge upstream/master --allow-unrelated-histories
+                git merge upstream/master --allow-unrelated-histories --squash
                 echo "Merge successful."
                 echo "Finished source operation."
