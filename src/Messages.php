@@ -8,7 +8,7 @@ class Messages
 
     public function title() : string
     {
-        return "Hello World";
+        return "Hello Cloned World";
     }
 
     public function message() : string

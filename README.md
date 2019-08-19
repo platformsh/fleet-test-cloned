@@ -1,1 +1,1 @@
-# Detached History Test Project
+# Cloned History Test Project
