@@ -53,9 +53,8 @@ source:
         upstream-update:
             command: |
                 set -e
-                # Since there's no common Git history, we need to provide
-                # a merge strategy for all files. In this case, always use
-                # files from upstream. The individual repo is un-editable itself.
+                # A common Git history means a normal merge should be
+                # valid, at least most of the time.
                 git remote add upstream $UPDATE_REMOTE
                 git fetch --all
-                git merge upstream/master --allow-unrelated-histories -X theirs
+                git merge upstream/master
